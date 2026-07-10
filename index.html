@@ -219,7 +219,7 @@
             </div>
 
             <div class="card">
-                <h3>Project Two</h3>
+                    <h3>Project Two</h3>
                 <p>An interactive user interface project focusing on modern CSS layout structures and dark mode implementation.</p>
             </div>
 
@@ -233,3 +233,12 @@
 
 </body>
 </html>
+.card {
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    cursor: pointer;
+}
+.card:hover {
+    transform: translateY(-5px);
+    border-color: var(--accent);
+    box-shadow: 0 4px 20px rgba(56, 189, 248, 0.2);
+}
